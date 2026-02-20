@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="generator" content="Hugo 0.155.3"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <title>Jordi Cortés</title>
+
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      margin: 0;
+      background: #ffffff;
+      color: #222;
+    }
+
+     
+    .header {
+      border-bottom: 1px solid #ddd;
+      padding: 20px 0;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .subtitle {
+      color: #555;
+      margin-top: 5px;
+    }
+
+     
+    .nav {
+      margin-top: 10px;
+    }
+
+    .nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #1a73e8;
+      font-size: 14px;
+    }
+
+     
+    h2 {
+      margin-top: 40px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+      font-size: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    strong {
+      color: #000;
+    }
+     
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 26px;
+      margin-top: 10px;
+    }
+    
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: 0.3s;
+      border-radius: 34px;
+    }
+    
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 3px;
+      bottom: 3px;
+      background-color: white;
+      transition: 0.3s;
+      border-radius: 50%;
+    }
+    
+    input:checked + .slider {
+      background-color: #1a73e8;
+    }
+    
+    input:checked + .slider:before {
+      transform: translateX(24px);
+    }
+    body.dark {
+      background: #121212;
+      color: #e0e0e0;
+    }
+    
+    body.dark a {
+      color: #8ab4f8;
+    }
+  </style>
+<script>
+function toggleTheme() {
+  const isDark = document.body.classList.toggle("dark");
+  localStorage.setItem("theme", isDark ? "dark" : "light");
+}
+
+window.onload = function() {
+  const saved = localStorage.getItem("theme");
+
+  if (saved === "dark") {
+    document.body.classList.add("dark");
+    document.getElementById("themeToggle").checked = true;
+  }
+};
+</script>
+
+<body>
+
+<div class="header">
+  <span>☀️</span> <label class="switch">
+    <input type="checkbox" onclick="toggleTheme()" id="themeToggle">
+    <span class="slider"></span>
+  </label><span>🌙</span>
+  <div class="container">
+  <img src="/img/profile.jpg" style="width:120px; border-radius:50%;">
+    <h1>Jordi Cortés</h1>
+    <div class="subtitle">
+      Associate Professor of Statistics<br>
+      Universitat Politècnica de Catalunya
+    <p>
+		<a href="https://scholar.google.com/citations?user=abHIX8wAAAAJ&hl=en">Google Scholar</a> |
+		<a href="https://github.com/jordicortes40">GitHub</a> |
+		<a href="https://futur.upc.edu/JordiCortesMartinez?locale=en">Futur UPC</a> |
+		<a href="https://orcid.org/0000-0002-3764-0795">ORCID</a> |
+		<a href="https://www.webofscience.com/wos/author/rid/P-6563-2017">WoS</a> |
+		<a href="http://www.scopus.com/authid/detail.url?authorId=55973760600">Scopus</a> |
+		<a href="mailto:jordi.cortes-martinez@upc.edu">Email</a> |
+	</p>
+	</div>
+	
+
+    <div class="nav">
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#courses">Courses</a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <h2 id="research">Research</h2>
+<p>My research focuses on:</p>
+<ul>
+<li>Sports analytics</li>
+<li>Synthetic Data</li>
+<li>Clinical trials</li>
+<li>Survival analysis</li>
+<li>Metaresearch: Reporting guidelines</li>
+<li>R programming</li>
+</ul>
+<hr>
+<h2 id="publications">Publications</h2>
+<ul>
+<li>Abilleira, S., Pérez de la Ossa, N., Jiménez, X., Cardona, P., Cocho, D., Purroy, F., Serena, J., San Román, L., Urra, X., Vilaró, M., Cortes, J., Gonzalez, J., Chamorro, Á., Gallofre, M., Jovin, T., Molina, C., Cobo, E., Dávalos, A., &amp; Ribó, M. (2019). Transfer to the local stroke center versus direct transfer to endovascular center of acute stroke patients with suspected large vessel occlusion in the Catalan territory (RACECAT): study protocol of a cluster randomized within a cohort trial. International Journal of Stroke, 14(7), 1–25. <a href="https://doi.org/10.1177/1747493019852176">https://doi.org/10.1177/1747493019852176</a></li>
+<li>Alsaeid, M., Sung, S., Bai, W., Tam, M., Wong, Y., Cortes, J., Cobo, E., Gonzalez, J., &amp; González-Abraldes, J. (2024). Heterogeneity of treatment response to beta-blockers in the treatment of portal hypertension: a systematic review. Hepatology Communications, 8(2, article e0321). <a href="https://doi.org/10.1097/HC9.0000000000000321">https://doi.org/10.1097/HC9.0000000000000321</a></li>
+<li>Benitez-Camps, M., Morros, R., Pera-Pujadas, H., Dalfó Baqué, A., Bayó Llibre, J., Rebagliato Nadal, O., Cortes, J., García Sangenís, A., Roca Saumell, C., Coll de Tuero, G., &amp; Vinyoles Bargalló, E. (2018). Effect of effervescent paracetamol on blood pressure: a crossover randomized clinical trial. Journal of Hypertension, 36(8), 1656–1662. <a href="https://doi.org/10.1097/HJH.0000000000001733">https://doi.org/10.1097/HJH.0000000000001733</a></li>
+<li>Blanco, D., Loder, E., Cook, S., Casals, M., Cortés, J., Cadellans-Arróniz, A., Zárate, V., Hubbard, E., &amp; Schroter, S. (2026). Analysis of non-prospective trial registration in clinical trials submitted to The BMJ: observational study. BMJ, 392. <a href="https://doi.org/10.1136/bmj-2025-086467">https://doi.org/10.1136/bmj-2025-086467</a></li>
+<li>Carrera, D., Campbell, B., Cortes, J., Gorchs, M., Querol, M., Jiménez, X., Millán, M., Dávalos, A., &amp; Pérez de la Ossa, N. (2017). Predictive value of modifications of the prehospital rapid arterial occlusion evaluation scale for large vessel occlusion in patients with acute stroke. Journal of Stroke and Cerebrovascular Diseases, 26(1), 74–77. <a href="https://doi.org/10.1016/j.jstrokecerebrovasdis.2016.08.032">https://doi.org/10.1016/j.jstrokecerebrovasdis.2016.08.032</a></li>
+<li>Casals, M., Cortes, J., Llenderrozos, D., Crespo, M., Hewett, T. E., Martín, L., &amp; Baiget, E. (2024). Epidemiology and factors influencing davis cup retirements over the past twenty years. International Journal of Sports Physical Therapy, 19(11), 1465–1476. <a href="https://doi.org/10.26603/001c.123948">https://doi.org/10.26603/001c.123948</a></li>
+<li>Casals, M., Fernández, J., Martínez, V., López, M., Langohr, K., &amp; Cortes, J. (2023). A systematic review of sport-related packages within the R CRAN repository. International Journal of Sports Science &amp; Coaching, 18(2), 621–629. <a href="https://doi.org/10.1177/17479541221136238">https://doi.org/10.1177/17479541221136238</a></li>
+<li>Casals, M., Peña, V., de Pablo, B., Ampuero, R., Cortes, J., &amp; Baiget, E. (2025). Epidemiology and determinants of walkovers in professional men’s tennis (1973–2019): A retrospective cohort analysis. Montenegrin Journal of Sports Science and Medicine, 14(2), 79–87. <a href="https://doi.org/10.26773/mjssm.250909">https://doi.org/10.26773/mjssm.250909</a></li>
+<li>Cobo, E., Cortes, J., Ribera, J. M., Cardellach, F., Selva, A., Kostov, B., Garcia, L., Cirugeda, L., Altman, D., Gonzalez, J., Sanchez, J., Miras, F., Urrutia, A., Fonollosa, V., Rey-Joly, C., &amp; Vilardell, M. (2011). Effect of using reporting guidelines during peer review on quality of final manuscripts submitted to a biomedical journal: masked randomised trial. BMJ. British Medical Journal, 343(7833), 1084–1084. <a href="https://doi.org/10.1136/bmj.d6783">https://doi.org/10.1136/bmj.d6783</a></li>
+<li>Cortes, J., Bofill, M., &amp; Gómez Melis, G. (2025). Design of trials with composite endpoints with the R package compAREdesign. STATISTICS IN BIOSCIENCES. <a href="https://doi.org/10.1007/s12561-025-09488-3">https://doi.org/10.1007/s12561-025-09488-3</a></li>
+<li>Cortes, J., Casals, M., Langohr, K., &amp; Gonzalez, J. (2016). Importancia de la potencia y la hipótesis en el valor p. Medicina Clínica, 146(4), 178–181. <a href="https://doi.org/10.1016/j.medcli.2015.10.011">https://doi.org/10.1016/j.medcli.2015.10.011</a></li>
+<li>Cortes, J., Geskus, R., Kim, K., &amp; Gómez Melis, G. (2021). Using the geometric average hazard ratio in sample size calculation for time-to-event data with composite endpoints. BMC Medical Research Methodology, 21, 99:1-99:14. <a href="https://doi.org/10.1186/s12874-021-01286-x">https://doi.org/10.1186/s12874-021-01286-x</a></li>
+<li>Cortes, J., Gonzalez, J., Campbell , M. J., &amp; Cobo, E. (2014). A hazard ratio was estimated by a ratio of median survival times, but with considerable uncertainty. Journal of Clinical Epidemiology, 67(1), 1172–1177. <a href="https://doi.org/10.1016/j.jclinepi.2014.05.017">https://doi.org/10.1016/j.jclinepi.2014.05.017</a></li>
+<li>Cortes, J., Gonzalez, J., Medina, M., Vogler, M., Vilaro, M., Elmore, M., Senn, S., Campbell, M., &amp; Cobo, E. (2018). Does evidence support the high expectations placed in precision medicine? A bibliographic review. F1000 Research Ltd, 7(30), 1–11. <a href="https://doi.org/10.12688/f1000research.13490.1">https://doi.org/10.12688/f1000research.13490.1</a></li>
+<li>Cortes, J., Nielsen, R., &amp; Casals, M. (2025). Methodological quality and reporting using time-to-event data in sports science and medicine: a scoping review. BMJ Open Sport and Exercise Medicine, 11(4, article 002800). <a href="https://doi.org/10.1136/bmjsem-2025-002800">https://doi.org/10.1136/bmjsem-2025-002800</a></li>
+<li>Cortes, J., Pak, D., Abelenda-Alonso, G., Langohr, K., Ning, J., Rombauts, A., Colom, M., Shen, Y., &amp; Gómez Melis, G. (2022). SARS-Cov-2 incubation period according to vaccination status during the fifth COVID-19 wave in a tertiary-care center in Spain: a cohort study. BMC Infectious Diseases, 22(828), 1–7. <a href="https://doi.org/10.1186/s12879-022-07822-4">https://doi.org/10.1186/s12879-022-07822-4</a></li>
+<li>Forns, J., Cainzos, M., Hellfritzsch, M., Morros, R., Poblador, B., Hallas, J., Giner-Soriano, M., Prados-Torres, A., Pottegard, A., Cortes, J., Castellsagué, J., Jacquot, E., Deltour, N., Pérez-Gutthann, S., &amp; Pladevall, M. (2019). Validity of ICD-9 and ICD-10 codes used to identify acute liver injury: a study in three European data sources. Pharmacoepidemiology and Drug Safety, 28(7), 965–975. <a href="https://doi.org/10.1002/pds.4803">https://doi.org/10.1002/pds.4803</a></li>
+<li>Forns, J., Pottegard, A., Reinders, T., Poblador, B., Morros, R., Brandt, L., Cainzos, M., Hellfritzsch, M., Schink, T., Prados-Torres, A., Giner-Soriano, M., Hagg, D., Hallas, J., Cortes, J., Jacquot, E., Deltour, N., Pérez-Gutthann, S., Pladevall, M., &amp; Reutfors, J. (2019). Antidepressant use in Denmark, Germany, Spain, and Sweden between 2009 and 2014: incidence and comorbidities of antidepressant initiators. Journal of Affective Disorders, 249, 242–252. <a href="https://doi.org/10.1016/j.jad.2019.02.010">https://doi.org/10.1016/j.jad.2019.02.010</a></li>
+<li>Garmendia, L., Cortes, J., &amp; Gómez Melis, G. (2023). MSMpred: interactive modelling and prediction of individual evolution via multistate models. BMC Medical Research Methodology, 23(article 126). <a href="https://doi.org/10.1186/s12874-023-01951-3">https://doi.org/10.1186/s12874-023-01951-3</a></li>
+<li>Giner-Soriano, M., Cortes, J., Gómez-Lumbreras, A., Prat, O., Quijada-Manuitt, M., &amp; Morros, R. (2020). The use and adherence of oral anticoagulants in Primary Health Care in Catalunya, Spain: a real-world data cohort study. Atención Primaria, 52(8), 529–538. <a href="https://doi.org/10.1016/j.aprim.2020.05.016">https://doi.org/10.1016/j.aprim.2020.05.016</a></li>
+<li>Giner-Soriano, M., Gerard, S., Cortes, J., Pera, H., García Sangenís, A., &amp; Morros, R. (2018). Impact of medication adherence on mortality and cardiovascular morbidity: a population-based cohort study. IMPACT study. JMIR Research Protocols, 7(3), 1–8. <a href="https://doi.org/10.2196/resprot.8121">https://doi.org/10.2196/resprot.8121</a></li>
+<li>Gómez Melis, G., Cortes, J., &amp; Cobo, E. (2022). Descripción de la supervivencia con indicadores numéricos y gráficos: conceptos básicos y errores que evitar. Cirugia Española. <a href="https://doi.org/10.1016/j.ciresp.2021.11.017">https://doi.org/10.1016/j.ciresp.2021.11.017</a></li>
+<li>Gómez-Lumbreras, A., Cortes, J., Giner-Soriano, M., Quijada-Manuitt, M., &amp; Morros, R. (2018). Characteristics of apixaban-treated patients, evaluation of the dose prescribed, and the persistence of treatment: a cohort study in Catalonia. Journal of Cardiovascular Pharmacology and Therapeutics, 23(6), 494–501. <a href="https://doi.org/10.1177/1074248418778544">https://doi.org/10.1177/1074248418778544</a></li>
+<li>Gonzalez, J., Lopez, M., Cobo, E., &amp; Cortes, J. (2018). Assessing Shiny apps through student feedback: recommendations from a qualitative study. Computer Applications in Engineering Education, 26(5), 1813–1824. <a href="https://doi.org/10.1002/cae.21932">https://doi.org/10.1002/cae.21932</a></li>
+<li>Guitart, M., Casals, M., Casamichana, D., Cortes, J., Valle, F., McCall, A., Cos, F., &amp; Rodas, G. (2022). Use of GPS to measure external load and estimate the incidence of muscle injuries in men’s football: a novel descriptive study. PloS One, 17(2, article e0263494). <a href="https://doi.org/10.1371/journal.pone.0263494">https://doi.org/10.1371/journal.pone.0263494</a></li>
+<li>Hernández, M., Werner, M., Remollo, S., Martín, C., Cortes, J., Valls, A., Ramos, A., Dorado, L., Serena, J., Munuera, J., Puig, J., Pérez de la Ossa, N., Gomis, M., Carbonell, J., Castaño, C., Muñoz-Narbona, L., Palomeras, E., Domènech, S., Massuet-Vilamajó, A., … Millán, M. (2022). Early and delayed infarct growth in patients undergoing mechanical thrombectomy: a prospective, serial MRI study. Stroke, 54(1), 217–225. <a href="https://doi.org/10.1161/STROKEAHA.122.039090">https://doi.org/10.1161/STROKEAHA.122.039090</a></li>
+<li>Llor, C., Pérez, A., Carandell, E., García Sangenís, A., Rezola, J., Llorente, M., Gestodo, S., Bobé, F., Román, M., Cots, J., Hernández, S., Cortes, J., Miravitlles, M., &amp; Morros, R. (2019). Efficacy of high doses of penicillin versus amoxicillin in the treatment of uncomplicated community acquired pneumonia in adults. A non-inferiority controlled clinical trial. Atención Primaria, 51(1), 32–39. <a href="https://doi.org/10.1016/j.aprim.2017.08.003">https://doi.org/10.1016/j.aprim.2017.08.003</a></li>
+<li>López Cancio, E., Ricciardi, A., Sobrino, T., Cortes, J., Pérez de la Ossa, N., Millán, M., Hernández, M., Gomis, M., Dorado, L., Muñoz-Narbona, L., Campos, F., Arenillas, J., &amp; Dávalos, A. (2017). Reported prestroke physical activity is associated with vascular endothelial growth factor expression and good outcomes after stroke. Journal of Stroke and Cerebrovascular Diseases, 26(2), 425–430. <a href="https://doi.org/10.1016/j.jstrokecerebrovasdis.2016.10.004">https://doi.org/10.1016/j.jstrokecerebrovasdis.2016.10.004</a></li>
+<li>Martínez, A., Lucente, G., Hernández, M., Cortes, J., Arbex, A., Pérez de la Ossa, N., Ramos, A., Almendrote, M., Millán, M., Gomis, M., Dorado, L., Castaño, C., Remollo, S., Cuadras, P., Garrido, A., Guanyabens, N., López Cancio, E., Coll-Canti, J., &amp; Dávalos, A. (2023). Prognostic accuracy of N20 somatosensory potential in patients with acute ischemic stroke and endovascular thrombectomy. Stroke: Vascular and Interventional Neurology, 3(5, article e000735). <a href="https://doi.org/10.1161/SVIN.122.000735">https://doi.org/10.1161/SVIN.122.000735</a></li>
+<li>Martínez, J., Subirana, I., Fernández, J., Cortes, J., Silva, R. M., &amp; Casals, M. (2025). R shiny web applications in the sports field: a scoping review. Statistica e Applicazioni, 20(2), 153–179. <a href="https://doi.org/10.26350/999999_000055">https://doi.org/10.26350/999999_000055</a></li>
+<li>Millán, M., De Gregorio Rocasolano, N., Pérez de la Ossa, N., Reverté, S., Costa, J., Giner, P., Silva, Y., Sobrino, T., Rodríguez-Yañez, M., Nombela, F., Campos, F., Serena, J., Vivancos, J., Martí-Sistac, O., Cortes, J., Dávalos, A., &amp; Gasull, T. (2021). Targeting pro-oxidant iron with deferoxamine as a treatment for ischemic stroke: safety and optimal dose selection in a randomized clinical trial. Antioxidants, 10(8, article 1270). <a href="https://doi.org/10.3390/antiox10081270">https://doi.org/10.3390/antiox10081270</a></li>
+<li>Montesinos, J., Cortes, J., Arnau, A., Sanchez, J., Elmore, M., Macia, N., Gonzalez, J., Santisteve, R., Cobo, E., &amp; Bosch, J. (2013). Barcelona baby boom: does sporting success affect birth rate? BRITISH MEDICAL JOURNAL, 347, f7387-1-f7387-6. <a href="https://doi.org/10.1136/bmj.f7387">https://doi.org/10.1136/bmj.f7387</a></li>
+<li>Oliver, L., Baiget, E., Cortes, J., Martínez, J., Crespo, M., &amp; Casals, M. (2024). Retirements of professional tennis players in ATP and WTA tour events. European Journal of Sport Science. <a href="https://doi.org/10.1002/ejsc.12177">https://doi.org/10.1002/ejsc.12177</a>
+Pak, D., Langohr, K., Ning, J., Cortes, J., Gómez Melis, G., &amp; Shen, Y. (2020). Modeling the coronavirus disease 2019 incubation period: impact on quarantine policy. Mathematics, 8(9), 1631-1-1631–1638. <a href="https://doi.org/10.3390/math8091631">https://doi.org/10.3390/math8091631</a></li>
+<li>Palau, M., Baiget, E., Cortes, J., Martínez, J., Crespo, M., &amp; Casals, M. (2024). Retirements of professional tennis players in second- and third-tier tournaments on the ATP and WTA tours. PloS One, 19(6), 1–20. <a href="https://doi.org/10.1371/journal.pone.0304638">https://doi.org/10.1371/journal.pone.0304638</a></li>
+<li>Pallarès, N., Inouzhe, H., Fernandez, D., Cortes, J., Barrio, I., Carratalà, J., &amp; Tebé, C. (2024). Development and validation of a model to predict ceiling of care in COVID-19 hospitalized patients. BMC Palliative Care, 23(article 173). <a href="https://doi.org/10.1186/s12904-024-01490-8">https://doi.org/10.1186/s12904-024-01490-8</a></li>
+<li>Perapoch, J., Vidal, R., Gómez-Lumbreras, A., Hermosilla, E., Riera, L., Cortes, J., Céspedes, M., Ramos, J., &amp; Morros, R. (2021). Prematurity and ADHD in childhood: an observational register-based study in Catalonia. Journal of Attention Disorders, 25(7), 933–941. <a href="https://doi.org/10.1177/1087054719864631">https://doi.org/10.1177/1087054719864631</a></li>
+<li>Pladevall, M., Pottegard, A., Schink, T., Reutfors, J., Morros, R., Poblador, B., Timmer, A., Forns, J., Hellfritzsch, M., Reinders, T., Hagg, D., Giner-Soriano, M., Prados-Torres, A., Cainzos, M., Hallas, J., Brandt, L., Cortes, J., Aguado, J., Perlemuter, G., … Pérez-Gutthann, S. (2019). Risk of Acute Liver Injury in agomelatine and other antidepressant users in four european countries: a cohort and nested case–control study using automated health data sources. CNS Drugs, 33(4), 383–395. <a href="https://doi.org/10.1007/s40263-019-00611-9">https://doi.org/10.1007/s40263-019-00611-9</a></li>
+<li>Riera, J., Pérez, P., Cortes, J., Roca, O., Masclans, J., &amp; Rello, J. (2013). Effect of high-flow nasal cannula and body position on end-expiratory lung volume: A cohort study using electrical impedance tomography. Respiratory Care, 58(4), 589–596. <a href="https://doi.org/10.4187/respcare.02086">https://doi.org/10.4187/respcare.02086</a></li>
+<li>Vilaró, M., Cortes, J., Selva, A., Urrutia, A., Ribera, J. M., Cardellach, F., Basagaña, X., Elmore, M., Vilardell, M., Altman, D., Gonzalez, J., &amp; Cobo, E. (2019). Adherence to reporting guidelines increases the number of citations: the argument for including a methodologist in the editorial process and peer-review. BMC Medical Research Methodology, 112(19), 1–7. <a href="https://doi.org/10.1186/s12874-019-0746-4">https://doi.org/10.1186/s12874-019-0746-4</a></li>
+<li>Vilas, D., Gomis, M., Blanco, M., Cortes, J., Millán, M., De La Ossa, N., Dorado, L., López Cancio, E., Suñol, A., &amp; Dávalos, A. (2012). Circadian rhythms in the efficacy of intravenous alteplase in patients with acute ischemic stroke and middle cerebral artery occlusion. Chronobiology International, 29(10), 1383–1389. <a href="https://doi.org/10.3109/07420528.2012.728655">https://doi.org/10.3109/07420528.2012.728655</a></li>
+</ul>
+<hr>
+<h2 id="experience">Experience</h2>
+<ul>
+<li>
+<p>Teaching</p>
+<ul>
+<li><strong>Associate Professor</strong>. Universitat Politècnica de Catalunya (2026–Present)</li>
+<li><strong>Lecturer Professor</strong>. Universitat Politècnica de Catalunya (2022–2025)</li>
+<li><strong>Assistant Professor</strong>. Universitat Politècnica de Catalunya (2012–2022)</li>
+</ul>
+</li>
+<li>
+<p>Research</p>
+<ul>
+<li><strong>Biomedical researcher</strong>. Idiap Jordi Gol (2015–2017)</li>
+<li><strong>Business Intelligence</strong>. Educaweb (2014–2015)</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="courses">Courses</h2>
+<ul>
+<li>Statistical Software  (Statistics, UB-UPC)</li>
+<li>Probability and Statistics (Computer Engineering, UPC)</li>
+<li>Quantitative Marketing Techniques (MESIO, UB-UPC)</li>
+<li>Generalized Linear Models (Statistics, UB-UPC)</li>
+<li>Biomedical Statistics (MHEDAS, URV)</li>
+</ul>
+
+</div>
+
+</body>
+</html>
