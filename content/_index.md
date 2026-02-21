@@ -2,6 +2,21 @@
 title: "Jordi Cortés"
 ---
 
+## Summary {#summary}
+
+Jordi Cortés Martínez is an Associate Professor in Statistics at the Universitat Politècnica de Catalunya (UPC), with a strong academic and research profile in biostatistics, clinical trials, and data science. He holds a PhD in Statistics (cum laude, 2021), along with a Master’s and Bachelor’s degrees in Statistics and Operations Research from UPC .
+
+His professional career combines academic, research, and industry experience. He has worked as a researcher at UPC and IDIAP Jordi Gol, as well as in business intelligence at Educaweb. Since 2022, he has been a full-time Lecturer Professor at UPC, after a decade as Assistant Professor .
+
+He has extensive teaching experience across undergraduate and master’s programs, covering subjects such as probability, statistical modeling, generalized linear models, and biomedical statistics. He currently teaches multiple courses, often acting as coordinator, and supervises PhD and master’s students .
+
+His research output includes 39 peer-reviewed articles (over 40% in top-tier journals), numerous conference contributions, and participation in competitive national and international research projects. His work focuses on biomedical applications, survival analysis, sports analytics, and statistical methodology . According to citation metrics shown on page 24, he has an H-index of 15 (Web of Science) and over 600 citations.
+
+In addition, he collaborates with hospitals, research institutions, and companies on clinical trials and applied statistical projects, and develops statistical software tools and R packages. He is also an active member of several professional organizations and research networks in statistics and biostatistics .
+
+Overall, his profile combines solid academic training, sustained teaching activity, and impactful applied research in health and data science.
+
+
 ## Research {#research}
 
 My research focuses on:
